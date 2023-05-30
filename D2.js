@@ -54,10 +54,11 @@ else if(numero3 || numero4 === 8)
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let totalShoppingCart = 40
+let shipping = 10
 if (totalShoppingCart > 50) {
   console.log("La spedizione è gratuita", totalShoppingCart )
 }
-else { console.log( "La spedizione te la paghi tutta", totalShoppingCart + 10)
+else { console.log( "La spedizione te la paghi tutta", totalShoppingCart + shipping)
 }
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
@@ -67,10 +68,11 @@ else { console.log( "La spedizione te la paghi tutta", totalShoppingCart + 10)
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let blacFriday=totalShoppingCart-(totalShoppingCart * 20/100)
+
 if (blacFriday > 50) {
   console.log('La spedizione è gratuita', blacFriday )
 }
-else { console.log( "La spedizione te la paghi tutta", blacFriday + 10)
+else { console.log( "La spedizione te la paghi tutta", blacFriday + shipping)
 }
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
