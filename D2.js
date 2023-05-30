@@ -55,7 +55,7 @@ else if(numero3 || numero4 === 8)
 
 let totalShoppingCart = 40
 if (totalShoppingCart > 50) {
-  console.log("Spedizion è gratuita", totalShoppingCart )
+  console.log("La spedizione è gratuita", totalShoppingCart )
 }
 else { console.log( "La spedizione te la paghi tutta", totalShoppingCart + 10)
 }
@@ -66,9 +66,9 @@ else { console.log( "La spedizione te la paghi tutta", totalShoppingCart + 10)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let blacFriday = totalShoppingCart - (totalShoppingCart * 20/100)
+let blacFriday=totalShoppingCart-(totalShoppingCart * 20/100)
 if (blacFriday > 50) {
-  console.log("Spedizion è gratuita", blacFriday )
+  console.log('La spedizione è gratuita', blacFriday )
 }
 else { console.log( "La spedizione te la paghi tutta", blacFriday + 10)
 }
